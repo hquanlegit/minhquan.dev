@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoàng Minh Quân | Portfolio Cá Nhân</title>
+    <meta name="description" content="Website giới thiệu bản thân, kỹ năng, dự án và kinh nghiệm làm việc của Hoàng Minh Quân - Kỹ Sư Phần Mềm.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Custom Cursor Effect -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-outline"></div>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="gradient-text">&lt;MinhQuan.dev /&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Trang Chủ</a>
+                <a href="#about" class="nav-link">Giới Thiệu</a>
+                <a href="#skills" class="nav-link">Kỹ Năng</a>
+                <a href="#contact" class="nav-link">Liên Hệ</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Open menu">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="absolute-bg-glow"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="welcome-badge">Xin chào, tôi là</span>
+                    <h1 class="hero-title">Hoàng Minh Quân</h1>
+                    <h2 class="hero-subtitle">Một <span id="typing-text" class="gradient-text"></span><span class="typed-cursor">|</span></h2>
+                    <p class="hero-description">
+                        Tôi là một kỹ sư phần mềm với đam mê giải quyết các bài toán phức tạp, xây dựng các hệ thống tối ưu hiệu năng và thiết kế cơ sở dữ liệu hiệu quả bằng C++, Python, JavaScript và MySQL.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn btn-primary">Liên Hệ Ngay <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#skills" class="btn btn-secondary">Xem Kỹ Năng</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/hquanlegit" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/qu%C3%A2n-ho%C3%A0ng-105253423/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="mailto:hquanlegit@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="blob-wrapper">
+                        <div class="blob-bg animate-blob"></div>
+                        <div class="avatar-card glass-panel">
+                            <div class="avatar-placeholder">
+                                <i class="fa-solid fa-code coder-icon"></i>
+                                <div class="floating-tech cpp-tech"><span>C++</span></div>
+                                <div class="floating-tech js-tech"><i class="fa-brands fa-js"></i></div>
+                                <div class="floating-tech python-tech"><i class="fa-brands fa-python"></i></div>
+                                <div class="floating-tech mysql-tech"><i class="fa-solid fa-database"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down-indicator" aria-label="Scroll down">
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Về Tôi</span>
+                    <h2 class="section-title">Hành Trình & Đam Mê</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-info glass-panel">
+                        <h3>Tôi là ai?</h3>
+                        <p>
+                            Tôi bắt đầu hành trình lập trình từ 3 năm trước. Đối với tôi, lập trình không chỉ là công việc viết mã, mà là nghệ thuật giải quyết các vấn đề thực tế và tạo ra giá trị thiết thực thông qua công nghệ.
+                        </p>
+                        <p>
+                            Tôi luôn cập nhật các công nghệ mới nhất để mang lại sản phẩm tốt nhất cho người dùng. Khả năng tự học, làm việc nhóm và tư duy phân tích là những điểm mạnh giúp tôi hoàn thành xuất sắc các dự án.
+                        </p>
+                        
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Họ và tên:</span>
+                                <span class="detail-val">Hoàng Minh Quân</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Email:</span>
+                                <span class="detail-val">hquanlegit@gmail.com</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Khu vực:</span>
+                                <span class="detail-val">Ninh Bình, Việt Nam</span>
+                            </div>
+                        </div>
+
+                        <div class="about-action">
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Năng lực</span>
+                    <h2 class="section-title">Kỹ Năng Chuyên Môn</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skills-category glass-panel">
+                        <div class="category-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Ngôn Ngữ Lập Trình</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>C++ (OOP & Data Structures)</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Python (Automation & Data)</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>JavaScript (ES6+ / Web Logic)</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Database & Web -->
+                    <div class="skills-category glass-panel">
+                        <div class="category-header">
+                            <i class="fa-solid fa-database"></i>
+                            <h3>Cơ Sở Dữ Liệu & Web</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>MySQL / SQL Queries</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>HTML5 & CSS3</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>REST APIs & Xử lý Logic</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Database & Tools -->
+                    <div class="skills-category glass-panel">
+                        <div class="category-header">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <h3>Công Cụ & Hệ Thống</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Git & GitHub</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Docker (Containerization)</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Linux & Bash Scripting</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Liên Hệ</span>
+                    <h2 class="section-title">Kết Nối Với Tôi</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Information -->
+                    <div class="contact-info-panel glass-panel">
+                        <h3>Thông Tin Liên Hệ</h3>
+                        <p class="contact-info-desc">
+                            Tôi luôn sẵn sàng thảo luận về các dự án tiềm năng, cơ hội hợp tác hoặc đơn giản là giải đáp các thắc mắc về lập trình. Đừng ngần ngại liên hệ nhé!
+                        </p>
+
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <div class="contact-icon-box">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="contact-detail-text">
+                                    <h4>Email cho tôi</h4>
+                                    <a href="mailto:hquanlegit@gmail.com">hquanlegit@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <div class="contact-icon-box">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="contact-detail-text">
+                                    <h4>Địa chỉ</h4>
+                                    <span>Ninh Bình, Việt Nam</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-social-section">
+                            <h4>Theo dõi mạng xã hội</h4>
+                            <div class="contact-social-icons">
+                                <a href="https://github.com/hquanlegit" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/qu%C3%A2n-ho%C3%A0ng-105253423/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-panel glass-panel">
+                        <h3>Gửi Tin Nhắn</h3>
+                        <form id="contact-form" class="contact-form" action="#" method="POST" novalidate>
+                            <div class="form-group-row">
+                                <div class="form-group">
+                                    <label for="form-name">Họ và tên <span class="required">*</span></label>
+                                    <div class="input-wrapper">
+                                        <i class="fa-regular fa-user"></i>
+                                        <input type="text" id="form-name" name="name" placeholder="Họ và tên của bạn" required>
+                                    </div>
+                                    <span class="error-msg" id="name-error">Họ tên không được để trống</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-email">Email liên hệ <span class="required">*</span></label>
+                                    <div class="input-wrapper">
+                                        <i class="fa-regular fa-envelope"></i>
+                                        <input type="email" id="form-email" name="email" placeholder="example@domain.com" required>
+                                    </div>
+                                    <span class="error-msg" id="email-error">Email không hợp lệ</span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-subject">Tiêu đề</label>
+                                <div class="input-wrapper">
+                                    <i class="fa-regular fa-bookmark"></i>
+                                    <input type="text" id="form-subject" name="subject" placeholder="Cơ hội hợp tác, Thảo luận dự án...">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-message">Nội dung tin nhắn <span class="required">*</span></label>
+                                <div class="input-wrapper text-area-wrapper">
+                                    <textarea id="form-message" name="message" rows="5" placeholder="Viết tin nhắn của bạn ở đây..." required></textarea>
+                                </div>
+                                <span class="error-msg" id="message-error">Nội dung tin nhắn không được để trống</span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
+                                <span>Gửi Tin Nhắn</span>
+                                <i class="fa-regular fa-paper-plane"></i>
+                            </button>
+                            <div id="form-status" class="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <a href="#home" class="logo"><span class="gradient-text">&lt;MinhQuan.dev /&gt;</span></a>
+                <p>Thiết kế & phát triển với <i class="fa-solid fa-heart text-danger"></i> năm 2026.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Trang chủ</a>
+                <a href="#about">Giới thiệu</a>
+                <a href="#skills">Kỹ năng</a>
+                <a href="#contact">Liên hệ</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Hoàng Minh Quân. Tất cả quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Javascript -->
+    <script src="script.js"></script>
+</body>
+</html>
